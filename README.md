@@ -1,3 +1,3 @@
 # HTML5 e CSS3
 ***
- Meus exercícios de **HTML5** e **CSS3** do curso em vídeo com o Professor __*Gustavo Guanabara*__ !!!
+ Meus exercícios de **HTML5** e **CSS3** !!!
