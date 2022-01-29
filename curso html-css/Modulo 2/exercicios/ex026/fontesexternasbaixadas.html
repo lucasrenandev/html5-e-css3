@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Snow';
+            src: url('fonts/Snowinter.otf') format('opentype'), url('fonts/Snowinter.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - enbedded - opentype
+            -truetype-aat (Apple Advanced Typography)
+            - sgv
+
+            */
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-family: 'Snow', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo! Welcome !!!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nemo quis repudiandae id illum veritatis laudantium harum explicabo nihil accusantium, debitis in. Ipsam commodi odit cum ullam doloribus sapiente veritatis!</p>
+    
+</body>
+</html>
